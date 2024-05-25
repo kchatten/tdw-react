@@ -57,7 +57,7 @@ class HomePage extends React.Component {
                             <ul><u>Things your Diabetes is</u>:
                                 <li>not your fault</li>
                                 <li>totally manageable</li>
-                                <li>not your fault</li>
+                                <li>probably not going to kill you</li>
                             </ul>
                             <br />
                             <ul><u>Things you can do with Diabetes</u>:
@@ -105,6 +105,7 @@ class HomePage extends React.Component {
                     </div>
                     <div className="_content-block">
                         <h1><u>Diabetes Comes With Toys?</u></h1>
+                        <br />
                         <span>
                             <p>
                                 Well, not really. But as you'll come to find there is a vast array of devices and technologies that a diabetic can utilize to live a more engaging life, or to help ease some of the mental burden that comes with the territory of running a finely tuned organ on manual mode.
@@ -135,6 +136,7 @@ class HomePage extends React.Component {
                     </div>
                     <div className="_content-block">
                         <h1><u>Numbers, Numbers & More Numbers</u></h1>
+                        <br />
                         <span>
                             <p>
                                 I hope you're not too intimidated by numbers, as they are inescapable. But if you can operate a calculator, you can do all the math required to manage your diabetes. Basal Rate Testing Realistically speaking, this is not something you should do without supervision. Your stress levels, your activity levels, the types and amount of food you're eating are just some of the factors that play in to what your basal rate will be. Ideally speaking, your basal rate will hold you at around 6mmol / 108mg.
@@ -185,6 +187,7 @@ class HomePage extends React.Component {
                     </div>
                     <div className="_content-block">
                         <h1><u>Food Frights</u></h1>
+                        <br />
                         <span>
                             <p>
                                 People often misattribute the need for strict regimented diet because of Type 2 Diabetes, but the reality is that you do not need to change your diet or your eating habits if you don't want to.

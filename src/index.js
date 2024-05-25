@@ -13,6 +13,7 @@ function ErrorBoundary() {
   console.log(error);
   return (
     <div id="error-container">
+      <a id="error-return" href="/">Home</a>
       <img id="error-image" src={`http://http.cat/${error.status}.jpg`} />
       <span id="error-message">
         <p>Error {error.status}: {error.error.message}</p>

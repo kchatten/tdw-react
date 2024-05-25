@@ -80,6 +80,9 @@ body {
   border: 2px solid rgba(0, 0, 0, 0.25);
   border-radius: inherit;
 }
+#_base #_page ._content-block ul li {
+  margin-left: 3vw;
+}
 
 #header {
   display: flex;
@@ -95,11 +98,10 @@ body {
 #header #site-title {
   display: none;
   align-self: center;
-  font-family: "Rock Salt", cursive;
-  font-size: 3rem;
-  letter-spacing: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
   -webkit-text-stroke: 2px rgb(0, 0, 0);
-  background-image: linear-gradient(180deg, rgb(143, 161, 218) 40%, rgb(250, 205, 0) 100%);
+  background-image: linear-gradient(180deg, rgb(143, 161, 218) 20%, rgb(250, 205, 0) 100%);
   background-clip: text;
 }
 #header #button-container {
@@ -134,6 +136,17 @@ body {
   height: 100vh;
   width: 100vw;
 }
+#error-container a {
+  position: absolute;
+  top: 0;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+}
+#error-container a:hover {
+  color: red;
+}
 #error-container #error-message {
   position: absolute;
   bottom: 0;
@@ -156,23 +169,29 @@ body {
     height: 95%;
     width: 90%;
   }
+  #_base #_page ._content-block {
+    font-size: 2rem;
+  }
   #header {
-    top: -1.75rem;
     font-size: 3.5rem;
   }
   #header #site-title {
     display: flex;
-    height: 100%;
-    font-size: 3.5rem;
   }
   #header #button-container button {
     margin-top: 1rem;
+  }
+  #error-container a {
+    font-size: 3.5rem;
   }
   #error-container #error-message p {
     font-size: 3.5rem;
   }
 }
 @media screen and (max-width: 375px) and (max-height: 700px) {
+  #error-container a {
+    font-size: 1rem;
+  }
   #error-container #error-message p {
     font-size: 1rem;
   }
@@ -193,11 +212,17 @@ body {
     top: 1.25rem;
     height: 95%;
   }
+  #error-container a {
+    font-size: 2rem;
+  }
   #error-container #error-message p {
     font-size: 2rem;
   }
 }
 @media screen and (max-height: 450px) and (min-width: 500px) {
+  #error-container a {
+    font-size: 2rem;
+  }
   #error-container #error-message p {
     font-size: 2rem;
   }
