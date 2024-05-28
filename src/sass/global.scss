@@ -90,6 +90,10 @@ body {
         ._content-block{
             padding: 2vh;
             margin: 1vh;
+
+            position: relative;
+            left: .5rem;
+
             display: flex;
 
             flex-direction: column;
@@ -137,19 +141,16 @@ body {
 
     #button-container {
         display: inherit;
-
-        place-content: center;
-        place-items: center;
+        flex: 1;
 
         height: 30%;
         width: 100%;
-
 
     }
 
     #button-container button {
         position: relative;
-
+        
         width: 23%;
 
         background-color: transparent;

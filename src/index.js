@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import Header from './header';
 import HomePage from './homepage';
 import HealthPage from './healthpage';
+import DietPage from './dietarypage';
+import ResourcePage from './resourcespage';
 
 function ErrorBoundary() {
   const error = useRouteError();
@@ -36,6 +38,8 @@ const router = createBrowserRouter(
     >
       <Route path="/" element={<HomePage />} />
       <Route path="/health" element={<HealthPage />} />
+      <Route path="/dietary" element={<DietPage/>} />
+      <Route path="/resources" element={<ResourcePage/>} /> 
     </Route>
   )
 )

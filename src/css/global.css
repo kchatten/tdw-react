@@ -71,6 +71,8 @@ body {
 #_base #_page ._content-block {
   padding: 2vh;
   margin: 1vh;
+  position: relative;
+  left: 0.5rem;
   display: flex;
   flex-direction: column;
   place-content: center;
@@ -106,8 +108,7 @@ body {
 }
 #header #button-container {
   display: inherit;
-  place-content: center;
-  place-items: center;
+  flex: 1;
   height: 30%;
   width: 100%;
 }
