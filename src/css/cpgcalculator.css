@@ -1,0 +1,22 @@
+#cpg-calculator{
+    display: flex;
+    flex-direction: column;
+
+    place-content: center;
+    place-items: center;
+    
+}
+
+#cpg-calculator p{
+    display: inline;
+}
+
+#cpg-calculator button{
+    padding: 1rem;
+    margin-top: .5rem;
+}
+
+#cpg-calculator button:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.25);
+}

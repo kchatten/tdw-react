@@ -1,11 +1,7 @@
 import React from 'react';
 
-class HealthPage extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
-    render() {
+function HealthPage() {
+    
         return (
             <div id="_base">
                 <div id="_page">
@@ -29,6 +25,5 @@ class HealthPage extends React.Component {
             </div>
         )
     };
-};
 
 export default HealthPage;
