@@ -77,7 +77,7 @@ function HomePage() {
                             <br />
                             <br />
                             The body however is very resilient, and incredibly crafty. While it may not be able to feed those screaming mouths with carbohydrates, it has evolved an adaptation that you may have actually already heard of before, Ketosis. Which the body enters after a prolonged period without significant carbohydrate or protein* intake.
-                            The body can actually produce glucose from some noncarbohydrate sources through a process called Gluconeogenesis. That's right, if you're like me — you might've discovered you had Diabetes when the Keto diet nearly killed you. Not that I was it voluntarily mind you.
+                            The body can actually produce glucose from some noncarbohydrate sources through a process called Gluconeogenesis. That's right, if you're like me — you might've discovered you had Diabetes when the Keto diet nearly killed you. Not that I was on it voluntarily mind you.
                             <br />
                             <br />
                             No you see, Ketosis is actually the process by which the body breaks down muscle and fatty tissues for energy by producing a dietary acid called a Ketone. Astute readers may have noticed that I said a dietary <em>acid</em> And while yes, your body now can continue to function something sinister is now happening inside you.
@@ -85,7 +85,7 @@ function HomePage() {
                             <br />
                             <br />
                             This is where things begin to fall apart and it can happen very quickly. The parts of the brain that regulate breathing try and compensate for the acidifying blood by increasing the frequency and depth of your breaths to expell more carbon dioxide and your kidneys try to filter out and excrete the ketones as best they can.
-                            These systems however can only do so much before the inevitable and dire consequences begin to take hold. The the muscles that make your heart beat become impacted. Your cognitive function becomes impaired. There are many terrible side effects that come with acidosis, including organ failure, coma, and death. So it's important to be aware of some of the more common symptoms of Diabetic Ketoacidosis.
+                            These systems however can only do so much before the inevitable and dire consequences begin to take hold. The muscles that make your heart beat become impacted. Your cognitive function becomes impaired. There are many terrible side effects that come with acidosis, including organ failure, coma, and death. So it's important to be aware of some of the more common symptoms of Diabetic Ketoacidosis.
                         </p>
                         <br />
                         <ul><u>Common symptoms of DKA include</u>:
@@ -110,8 +110,9 @@ function HomePage() {
                     <span>
                         <p>
                             Well, not really. But as you'll come to find there is a vast array of devices and technologies that a diabetic can utilize to live a more engaging life, or to help ease some of the mental burden that comes with the territory of running a finely tuned organ on manual mode.
-                            I'm going to try to go over the most common ones, and the ones that I think are the most important for you to be aware of without overloading you. Insulin As mentioned, insulin.
-                            It's important. We don't make it anymore, so we have to introduce it into our body somehow and unfortunately the technology just isn't quite there yet for just about any other delivery method.
+                            I'm going to try to go over the most common ones, and the ones that I think are the most important for you to be aware of without overloading you.
+                            <br/> 
+                            Insulin, it's important. We don't make it anymore, so we have to introduce it into our body somehow and unfortunately the technology just isn't quite there yet for just about any other delivery method.
                             <br />
                             <br />
                             Subcutaneous injections don't come without risk but they can be largely mitigated. There are two categories of insulin.
@@ -171,7 +172,7 @@ function HomePage() {
                     <span>
                         <p>
                             I hope you're not too intimidated by numbers, as they are inescapable. But if you can operate a calculator, you can do all the math required to manage your diabetes.
-                            Basal Rate Testing Realistically speaking, this is not something you should do without supervision.
+                            Basal Rate Testing realistically speaking, this is not something you should do without supervision.
                             Your stress levels, your activity levels, the types and amount of food you're eating are just some of the factors that play in to what your basal rate will be.
                             <br />
                             <br />
