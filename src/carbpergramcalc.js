@@ -41,7 +41,7 @@ function CarbPerGramCalculator() {
                     <br/>                    
                     <span> So if I want to have <input ref={inputTargetRef} type="text" placeholder="target carbs in grams" /> grams carbohydrate of my snack; </span>
                     <br/>
-                    <span> I need to weigh out <p ref={outputRef}>{output}</p> grams of my snack. </span> 
+                    <span aria-live="polite"> I need to weigh out <p ref={outputRef}>{output}</p> grams of my snack. </span> 
                     <button onClick={() => { Calculate() }}>Calculate</button>
             </div>
         </>
