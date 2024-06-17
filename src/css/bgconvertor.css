@@ -1,0 +1,65 @@
+#bg-convertor-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+#bg-convertor-container p {
+    margin: .5rem;
+}
+
+#bg-convertor-container button {
+    margin: 1rem;
+    padding: .5rem;
+    width: 50%;
+    height: 100%;
+    align-self: center;
+}
+
+#bg-convertor-container button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#bg-convertor-container input {
+    width: 50%;
+    text-align: center;
+}
+
+#bg-convertor-container #input-container {
+    display: inherit;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#bg-convertor-container #output-container {
+    display: inherit;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#bg-convertor-container .conversion-container{
+    flex: 1;
+}
+
+@media screen and (min-width:900px) and (min-height: 450px) {
+
+    #bg-convertor-container {
+        width: 80%;
+    }
+
+    #bg-convertor-container #input-container {
+        justify-content: space-evenly;
+    }
+
+    #bg-convertor-container #output-container {
+        justify-content: space-evenly;
+    }
+}

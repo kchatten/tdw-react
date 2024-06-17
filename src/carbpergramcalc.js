@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import "./css/cpgcalculator.css";
 
 // TODO: Write a unit test for this component.
+// TODO: Incrase a11y
 
 function CarbPerGramCalculator() {
 
