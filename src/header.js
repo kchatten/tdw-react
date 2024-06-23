@@ -25,6 +25,11 @@ function Header() {
     useEffect(() => { // When this component mounts, set the state of activePage to the url path. This handles header button active state initialization.
         const initialPage = window.location.pathname;
         setActivePage(initialPage);
+
+        window.addEventListener("popstate", () => {
+            let page = window.location.pathname;
+            setActivePage(page);
+        })
     }, []);
 
     const handleClick = (href) => { // Define the handleClick function. Navigates to the route passed through href and sets the state to reflect the change.
